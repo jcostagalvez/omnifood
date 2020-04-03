@@ -5,8 +5,9 @@ module.exports = merge (common ,{
     mode: "production",
     entry: './src/js/index.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename:'js/bundle.js'
+        path: path.resolve(__dirname, './dist'),
+        publicPath: 'omnifood/',
+        filename: 'js/bundle.js?[hash]'
     },
     devServer: {
         contentBase: './dist'
@@ -14,7 +15,7 @@ module.exports = merge (common ,{
     plugins:[
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: './src/index.html'
+            template: './index.html'
         })
     ],
     module:{
