@@ -1093,8 +1093,8 @@ h3 {
 /* -------------------------------------------------------------*/
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(omnifood/images/2f86b41ef712bff7bb5cab623a1ed7e3-hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(omnifood/images/2f86b41ef712bff7bb5cab623a1ed7e3-hero.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(/omnifood/images/2f86b41ef712bff7bb5cab623a1ed7e3-hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/omnifood/images/2f86b41ef712bff7bb5cab623a1ed7e3-hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -1353,8 +1353,8 @@ h3{
 .customer-testimony h2{ color: #fff; }
 
 .customer-testimony{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(omnifood/images/39fa5f6e2f50ed00293e7b3a8df5d6c8-back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(omnifood/images/39fa5f6e2f50ed00293e7b3a8df5d6c8-back-customers.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(/omnifood/images/39fa5f6e2f50ed00293e7b3a8df5d6c8-back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/omnifood/images/39fa5f6e2f50ed00293e7b3a8df5d6c8-back-customers.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
