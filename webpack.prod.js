@@ -7,7 +7,7 @@ module.exports = {
     entry: './src/js/index.js',
     output: {
         path: path.resolve(__dirname, './dist'),
-        publicPath: 'omnifood/',
+        publicPath: '/omnifood/',
         filename: 'js/bundle.js?[hash]'
     },
     module: {
