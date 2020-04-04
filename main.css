@@ -1,0 +1,1642 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+.row {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		/*margin: 1% 0 1% 0%;*/
+        margin: 0;
+	}
+}
+
+
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span-2-of-2 {
+	width: 100%;
+}
+
+.span-1-of-2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-2-of-2 {
+		width: 100%; 
+	}
+	.span-1-of-2 {
+		width: 100%; 
+	}
+}
+
+
+/*  GRID OF THREE   ============================================================================= */
+
+	
+.span-3-of-3 {
+	width: 100%; 
+}
+
+.span-2-of-3 {
+	width: 66.13%; 
+}
+
+.span-1-of-3 {
+	width: 32.26%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-3-of-3 {
+		width: 100%; 
+	}
+	.span-2-of-3 {
+		width: 100%; 
+	}
+	.span-1-of-3 {
+		width: 100%;
+	}
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+	
+.span-4-of-4 {
+	width: 100%; 
+}
+
+.span-3-of-4 {
+	width: 74.6%; 
+}
+
+.span-2-of-4 {
+	width: 49.2%; 
+}
+
+.span-1-of-4 {
+	width: 23.8%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-4-of-4 {
+		width: 100%; 
+	}
+	.span-3-of-4 {
+		width: 100%; 
+	}
+	.span-2-of-4 {
+		width: 100%; 
+	}
+	.span-1-of-4 {
+		width: 100%; 
+	}
+}
+
+
+/*  GRID OF FIVE   ============================================================================= */
+
+	
+.span-5-of-5 {
+	width: 100%;
+}
+
+.span-4-of-5 {
+  	width: 79.68%; 
+}
+
+.span-3-of-5 {
+  	width: 59.36%; 
+}
+
+.span-2-of-5 {
+  	width: 39.04%;
+}
+
+.span-1-of-5 {
+  	width: 18.72%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-5-of-5 {
+		width: 100%; 
+	}
+	.span-4-of-5 {
+		width: 100%; 
+	}
+	.span-3-of-5 {
+		width: 100%; 
+	}
+	.span-2-of-5 {
+		width: 100%; 
+	}
+	.span-1-of-5 {
+		width: 100%; 
+	}
+}
+
+
+/*  GRID OF SIX   ============================================================================= */
+
+
+.span-6-of-6 {
+	width: 100%;
+}
+
+.span-5-of-6 {
+  	width: 83.06%;
+}
+
+.span-4-of-6 {
+  	width: 66.13%;
+}
+
+.span-3-of-6 {
+  	width: 49.2%;
+}
+
+.span-2-of-6 {
+  	width: 32.26%;
+}
+
+.span-1-of-6 {
+  	width: 15.33%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-6-of-6 {
+		width: 100%; 
+	}
+	.span-5-of-6 {
+		width: 100%; 
+	}
+	.span-4-of-6 {
+		width: 100%; 
+	}
+	.span-3-of-6 {
+		width: 100%; 
+	}
+	.span-2-of-6 {
+		width: 100%; 
+	}
+	.span-1-of-6 {
+		width: 100%; 
+	}
+}
+
+
+
+/*  GRID OF SEVEN   ============================================================================= */
+
+
+.span-7-of-7 {
+	width: 100%;
+}
+
+.span-6-of-7 {
+	width: 85.48%;
+}
+
+.span-5-of-7 {
+  	width: 70.97%;
+}
+
+.span-4-of-7 {
+  	width: 56.45%;
+}
+
+.span-3-of-7 {
+  	width: 41.94%;
+}
+
+.span-2-of-7 {
+  	width: 27.42%;
+}
+
+.span-1-of-7 {
+  	width: 12.91%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-7-of-7 {
+		width: 100%; 
+	}
+	.span-6-of-7 {
+		width: 100%; 
+	}
+	.span-5-of-7 {
+		width: 100%; 
+	}
+	.span-4-of-7 {
+		width: 100%; 
+	}
+	.span-3-of-7 {
+		width: 100%; 
+	}
+	.span-2-of-7 {
+		width: 100%; 
+	}
+	.span-1-of-7 {
+		width: 100%; 
+	}
+}
+
+
+/*  GRID OF EIGHT   ============================================================================= */
+
+	
+.span-8-of-8 {
+	width: 100%;
+}
+
+.span-7-of-8 {
+	width: 87.3%; 
+}
+
+.span-6-of-8 {
+	width: 74.6%; 
+}
+
+.span-5-of-8 {
+	width: 61.9%; 
+}
+
+.span-4-of-8 {
+	width: 49.2%; 
+}
+
+.span-3-of-8 {
+	width: 36.5%;
+}
+
+.span-2-of-8 {
+	width: 23.8%; 
+}
+
+.span-1-of-8 {
+	width: 11.1%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-8-of-8 {
+		width: 100%; 
+	}
+	.span-7-of-8 {
+		width: 100%; 
+	}
+	.span-6-of-8 {
+		width: 100%; 
+	}
+	.span-5-of-8 {
+		width: 100%; 
+	}
+	.span-4-of-8 {
+		width: 100%; 
+	}
+	.span-3-of-8 {
+		width: 100%; 
+	}
+	.span-2-of-8 {
+		width: 100%; 
+	}
+	.span-1-of-8 {
+		width: 100%; 
+	}
+}
+
+
+/*  GRID OF NINE   ============================================================================= */
+
+
+.span-9-of-9 {
+	width: 100%;
+}
+
+.span-8-of-9 {
+	width: 88.71%;
+}
+
+.span-7-of-9 {
+	width: 77.42%; 
+}
+
+.span-6-of-9 {
+	width: 66.13%; 
+}
+
+.span-5-of-9 {
+	width: 54.84%; 
+}
+
+.span-4-of-9 {
+	width: 43.55%; 
+}
+
+.span-3-of-9 {
+	width: 32.26%;
+}
+
+.span-2-of-9 {
+	width: 20.97%; 
+}
+
+.span-1-of-9 {
+	width: 9.68%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-9-of-9 {
+		width: 100%; 
+	}
+	.span-8-of-9 {
+		width: 100%; 
+	}
+	.span-7-of-9 {
+		width: 100%; 
+	}
+	.span-6-of-9 {
+		width: 100%; 
+	}
+	.span-5-of-9 {
+		width: 100%; 
+	}
+	.span-4-of-9 {
+		width: 100%; 
+	}
+	.span-3-of-9 {
+		width: 100%; 
+	}
+	.span-2-of-9 {
+		width: 100%; 
+	}
+	.span-1-of-9 {
+		width: 100%; 
+	}
+}
+
+
+/*  GRID OF TEN   ============================================================================= */
+
+
+.span-10-of-10 {
+	width: 100%;
+}
+
+.span-9-of-10 {
+	width: 89.84%;
+}
+
+.span-8-of-10 {
+	width: 79.68%;
+}
+
+.span-7-of-10 {
+	width: 69.52%; 
+}
+
+.span-6-of-10 {
+	width: 59.36%; 
+}
+
+.span-5-of-10 {
+	width: 49.2%; 
+}
+
+.span-4-of-10 {
+	width: 39.04%; 
+}
+
+.span-3-of-10 {
+	width: 28.88%;
+}
+
+.span-2-of-10 {
+	width: 18.72%; 
+}
+
+.span-1-of-10 {
+	width: 8.56%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-10-of-10 {
+		width: 100%; 
+	}
+	.span-9-of-10 {
+		width: 100%; 
+	}
+	.span-8-of-10 {
+		width: 100%; 
+	}
+	.span-7-of-10 {
+		width: 100%; 
+	}
+	.span-6-of-10 {
+		width: 100%; 
+	}
+	.span-5-of-10 {
+		width: 100%; 
+	}
+	.span-4-of-10 {
+		width: 100%; 
+	}
+	.span-3-of-10 {
+		width: 100%; 
+	}
+	.span-2-of-10 {
+		width: 100%; 
+	}
+	.span-1-of-10 {
+		width: 100%; 
+	}
+}
+
+
+/*  GRID OF ELEVEN   ============================================================================= */
+
+.span-11-of-11 {
+	width: 100%;
+}
+
+.span-10-of-11 {
+	width: 90.76%;
+}
+
+.span-9-of-11 {
+	width: 81.52%;
+}
+
+.span-8-of-11 {
+	width: 72.29%;
+}
+
+.span-7-of-11 {
+	width: 63.05%; 
+}
+
+.span-6-of-11 {
+	width: 53.81%; 
+}
+
+.span-5-of-11 {
+	width: 44.58%; 
+}
+
+.span-4-of-11 {
+	width: 35.34%; 
+}
+
+.span-3-of-11 {
+	width: 26.1%;
+}
+
+.span-2-of-11 {
+	width: 16.87%; 
+}
+
+.span-1-of-11 {
+	width: 7.63%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-11-of-11 {
+		width: 100%; 
+	}
+	.span-10-of-11 {
+		width: 100%; 
+	}
+	.span-9-of-11 {
+		width: 100%; 
+	}
+	.span-8-of-11 {
+		width: 100%; 
+	}
+	.span-7-of-11 {
+		width: 100%; 
+	}
+	.span-6-of-11 {
+		width: 100%; 
+	}
+	.span-5-of-11 {
+		width: 100%; 
+	}
+	.span-4-of-11 {
+		width: 100%; 
+	}
+	.span-3-of-11 {
+		width: 100%; 
+	}
+	.span-2-of-11 {
+		width: 100%; 
+	}
+	.span-1-of-11 {
+		width: 100%; 
+	}
+}
+
+
+/*  GRID OF TWELVE   ============================================================================= */
+
+.span-12-of-12 {
+	width: 100%;
+}
+
+.span-11-of-12 {
+	width: 91.53%;
+}
+
+.span-10-of-12 {
+	width: 83.06%;
+}
+
+.span-9-of-12 {
+	width: 74.6%;
+}
+
+.span-8-of-12 {
+	width: 66.13%;
+}
+
+.span-7-of-12 {
+	width: 57.66%; 
+}
+
+.span-6-of-12 {
+	width: 49.2%; 
+}
+
+.span-5-of-12 {
+	width: 40.73%; 
+}
+
+.span-4-of-12 {
+	width: 32.26%; 
+}
+
+.span-3-of-12 {
+	width: 23.8%;
+}
+
+.span-2-of-12 {
+	width: 15.33%; 
+}
+
+.span-1-of-12 {
+	width: 6.86%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span-12-of-12 {
+		width: 100%; 
+	}
+	.span-11-of-12 {
+		width: 100%; 
+	}
+	.span-10-of-12 {
+		width: 100%; 
+	}
+	.span-9-of-12 {
+		width: 100%; 
+	}
+	.span-8-of-12 {
+		width: 100%; 
+	}
+	.span-7-of-12 {
+		width: 100%; 
+	}
+	.span-6-of-12 {
+		width: 100%; 
+	}
+	.span-5-of-12 {
+		width: 100%; 
+	}
+	.span-4-of-12 {
+		width: 100%; 
+	}
+	.span-3-of-12 {
+		width: 100%; 
+	}
+	.span-2-of-12 {
+		width: 100%; 
+	}
+	.span-1-of-12 {
+		width: 100%; 
+	}
+}
+/* -------------------------------------------------------------*/
+/* BASIC SETUP */
+/* -------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* -------------------------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/* -------------------------------------------------------------*/
+.clearfix{zoom: 1}
+
+.clearfix:after{
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;  
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+/* -------------------------------------------------------------*/
+/* HEADER */
+/* -------------------------------------------------------------*/
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(omnifood/images/2f86b41ef712bff7bb5cab623a1ed7e3-hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(omnifood/images/2f86b41ef712bff7bb5cab623a1ed7e3-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} 
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #e67e22;
+    border: 1px;
+    border-style: solid;
+    border-color: #e67e22; 
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px;
+    border-style: solid;
+    border-color: #e67e22;
+    color: #e67e22;
+    margin-left: 15px;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border-color: #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    color: #fff;
+}
+
+.logo{
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;   
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+
+/* -------------------------------------------------------------*/
+/* Block 1 */
+/* -------------------------------------------------------------*/
+
+h2{
+    margin-top: 20px;
+    color: black;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    content: " ";
+}
+h3{
+    font-size: 110%;
+    color: black;
+}
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin: 2% 0px 5% 15%;
+}
+
+.box{
+    padding: 1%;
+    margin-bottom:100px;
+}
+
+.box p{
+    text-align: center;
+    font-size: 90%;
+    line-height: 145%;
+}
+.test-title{ text-align: center; }
+.icon-big{
+    font-size: 400%;
+    display: inline-block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+/* -------------------------------------------------------------*/
+/* Block 2 */
+/* -------------------------------------------------------------*/
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li{
+    display: block;
+    float:left;
+    width: 25%;
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal-photo img{
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    -webkit-transition: opacity 0.4s, -webkit-transform 0.5s;
+    transition: opacity 0.4s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.4s;
+    transition: transform 0.5s, opacity 0.4s, -webkit-transform 0.5s;
+}
+
+.meal-photo img:hover{
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+    opacity: 1;
+}
+
+/* -------------------------------------------------------------*/
+/* Block 3 */
+/* -------------------------------------------------------------*/
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 25px;
+}
+
+.app-screen{ width: 40%; }
+
+.works-step { margin-bottom: 50px; }
+
+.works-step:last-of-type{ margin-bottom: 60px; }
+
+.works-step div{
+    color:#e67e22;
+    border:2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 30px;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.city-feature a{
+    color: #e67e22;
+    padding-bottom: 1px;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;  
+}
+.city-feature a:hover {
+    color: #555555;
+    margin-right: 15px;
+}
+.customer-testimony h2{ color: #fff; }
+
+.customer-testimony{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(omnifood/images/39fa5f6e2f50ed00293e7b3a8df5d6c8-back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(omnifood/images/39fa5f6e2f50ed00293e7b3a8df5d6c8-back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201c";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    
+    
+}
+
+cite {
+    font-size: 90%px;
+    margin-top: 25px;
+    display: block;
+}
+
+
+
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.section-plans{ background-color: #f4f4f4; }
+
+.plan-box{
+    background-color: #fff;
+    border-radius: 5%;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #e3e3e3;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.plan-price span{
+ font-size: 30%;
+ font-weight: 300;
+}
+
+.plan-price-meal{ font-size: 80%; }
+
+.plan-box ul{ list-style: none; }
+
+.plan-box li{ padding: 5px 0; }
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #cccc;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+footer{
+    background-color: #333;
+    padding:60px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{ margin-right: 0; }
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{ color: #ddd; }
+
+.social-links li a:link,
+.social-links li a:visited { font-size: 180%; }
+
+.facebook:hover { color: #3b5998; }
+
+.instagram:hover { color:#00aced; }
+
+.twitter:hover { color:#517fa4; }
+
+.google:hover{ color:#dd4b39; }
+
+.facebook,
+.instagram,
+.twitter,
+.google{
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+footer p {
+    text-align: center;
+    color:#888;
+    font-size: 90%;}
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 60px; }
+    
+    .app-screen { width: 50%; }
+    
+    .icon-small { 
+        width: 17px;
+        margin-right: 5px;
+    }
+    
+    .city-feature { font-size: 90%; }
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-price { font-size: 250%; }
+    .contact-form { width: 80%; }
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    
+    
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .app-screen { width: 40%; }
+    .steps-box:first-child { text-align: center; }
+    
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px; }
+    
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form {width: 100%; }
+}
+
+
+
+
