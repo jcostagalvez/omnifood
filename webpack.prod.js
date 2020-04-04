@@ -10,15 +10,11 @@ module.exports = {
         publicPath: 'omnifood/',
         filename: 'js/bundle.js?[hash]'
     },
-    devServer: {
-        contentBase: './dist'
-    },
     module: {
       rules: [
         {
           test: /\.css/,
           use: [
-            'css-hot-loader',
             MiniCssExtractPlugin.loader,
             'css-loader'
           ]
